@@ -9,5 +9,11 @@ public class Temperatures {
         weeklyTemperatures.add(67);
         weeklyTemperatures.add(89);
         weeklyTemperatures.add(94);
+        weeklyTemperatures.add(2,111);
+        System.out.println(weeklyTemperatures.get(3));
+        for (int j = 0; j < weeklyTemperatures.size(); j++) {
+            System.out.println( weeklyTemperatures.get(j) );
+        }
+
     }
 }
