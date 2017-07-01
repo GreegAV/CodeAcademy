@@ -30,6 +30,7 @@ class Dog extends Animal{
         spike.run(100);
         int spikeAge=spike.getAge();
         System.out.println(spikeAge);
+        spike.checkStatus();
 
     }
 
